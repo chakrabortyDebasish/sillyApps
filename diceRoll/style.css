@@ -9,11 +9,12 @@ body {
     color: #DCD8CF;
     font-family: 'Montserrat-Bold';
     padding: 20px 0px 20px 0px;
+    height: 100px;
 }
 
 .main {
     background-color: #DCD8CF;
-    text-align: center  ;
+    text-align: center;
 }
 
 .main .dice {
@@ -26,12 +27,52 @@ body {
     font-size: 2rem;
 }
 
+.main button {
+    display: block;
+    position: relative;
+    bottom: 5px;
+    left: 48.4%;
+    margin-top: 9px;
+    text-align: center;
+    font-size: 1rem;
+    border: 3px solid #33475b;
+    border-radius: 3px;
+    background-image: linear-gradient(45deg, orange,red);
+    color: #DCD8CF;
+    font-weight: bolder;
+    box-shadow: 3px 3px #888888;
+    padding: 3px 9px 3px 9px;
+    transform: translateY(-3px);
+}
+
+.main button:hover {
+    display: block;
+    position: relative;
+    bottom: 5px;
+    left: 48.4%;    
+    margin-top: 9px;
+    text-align: center;
+    font-size: 1rem;
+    border: 3px solid #33475b;
+    border-radius: 3px;
+    background-image: linear-gradient(45deg, red,orange);
+    color: #DCD8CF;
+    font-weight: bolder;
+    box-shadow: 3px 3px #888888;
+    padding: 3px 9px 3px 9px;
+    transform: translateY(-3px);
+}
+
+.main button:active {
+    transform: translateY(-2px);
+}
+
 .footer {
     text-align: center;
     background-color: #282827;
     color: #DCD8CF;
     font-family: 'Montserrat-Bold', sans-serif;
-    padding: 11px;
+    padding: 51px;
 }
 
 .footer small a {
