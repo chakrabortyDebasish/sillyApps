@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    text-align: center;
+    background-color: #282827;
+    color: #DCD8CF;
+    font-family: 'Montserrat-Bold';
+    padding: 20px 0px 20px 0px;
+}
+
+.main {
+    background-color: #DCD8CF;
+    text-align: center  ;
+}
+
+.main .dice {
+    display: inline-block;
+}
+
+.main .dice p {
+    color: #282827;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 2rem;
+}
+
+.footer {
+    text-align: center;
+    background-color: #282827;
+    color: #DCD8CF;
+    font-family: 'Montserrat-Bold', sans-serif;
+    padding: 11px;
+}
+
+.footer small a {
+    color: #E25D33;
+}
+
+.footer .social-platform div {
+    text-decoration: underline;
+}
+
+.footer .social-platform span {
+    margin: 0px 0.5px 0px 0.5px;
+    color: #E25D33;
+}
